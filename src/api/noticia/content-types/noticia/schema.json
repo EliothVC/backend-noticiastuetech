@@ -14,6 +14,9 @@
     "titulo": {
       "type": "string"
     },
+    "slug": {
+      "type": "uid"
+    },
     "descripcion": {
       "type": "text"
     },
@@ -28,6 +31,13 @@
         "files",
         "videos",
         "audios"
+      ]
+    },
+    "categoria": {
+      "type": "enumeration",
+      "enum": [
+        "tecnologia",
+        "videojuegos"
       ]
     }
   }

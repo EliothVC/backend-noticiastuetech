@@ -1,0 +1,14 @@
+{
+  "kind": "singleType",
+  "collectionName": "videogames",
+  "info": {
+    "singularName": "videogame",
+    "pluralName": "videogames",
+    "displayName": "videogame"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}

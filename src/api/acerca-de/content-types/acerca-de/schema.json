@@ -1,0 +1,14 @@
+{
+  "kind": "singleType",
+  "collectionName": "acerca_des",
+  "info": {
+    "singularName": "acerca-de",
+    "pluralName": "acerca-des",
+    "displayName": "acerca de"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}

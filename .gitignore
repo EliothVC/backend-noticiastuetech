@@ -82,6 +82,12 @@ ssl
 nbproject
 public/uploads/*
 !public/uploads/.gitkeep
+!public/uploads/*.jpg
+!public/uploads/*.jpeg
+!public/uploads/*.png
+!public/uploads/*.avif
+!public/uploads/*.gif
+!public/uploads/*.webp
 .tsbuildinfo
 .eslintcache
 
