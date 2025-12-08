@@ -34,6 +34,9 @@
     "titulo3": {
       "type": "string"
     },
+    "descripcion2": {
+      "type": "string"
+    },
     "titulo4": {
       "type": "string"
     }

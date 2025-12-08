@@ -11,6 +11,9 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "destacado": {
+      "type": "boolean"
+    },
     "titulo": {
       "type": "string"
     },
@@ -20,7 +23,7 @@
     "descripcion": {
       "type": "text"
     },
-    "tiempo_lectura": {
+    "fecha": {
       "type": "string"
     },
     "imagen": {
