@@ -444,6 +444,13 @@ export interface ApiAcercaDeAcercaDe extends Struct.SingleTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    descripcion: Schema.Attribute.Text;
+    descripcion2: Schema.Attribute.Text;
+    descripcion3: Schema.Attribute.Text;
+    descripcion4: Schema.Attribute.Text;
+    imagen: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    imagen2: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    imagen3: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -451,6 +458,9 @@ export interface ApiAcercaDeAcercaDe extends Struct.SingleTypeSchema {
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
+    titulo: Schema.Attribute.String;
+    titulo2: Schema.Attribute.String;
+    titulo4: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -632,6 +642,12 @@ export interface ApiTechnologyTechnology extends Struct.SingleTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    descripcion: Schema.Attribute.Text;
+    descripcion2: Schema.Attribute.Text;
+    descripcion3: Schema.Attribute.Text;
+    imagen: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    imagen2: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    imagen3: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -639,6 +655,10 @@ export interface ApiTechnologyTechnology extends Struct.SingleTypeSchema {
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
+    titulo: Schema.Attribute.String;
+    titulo2: Schema.Attribute.String;
+    titulo3: Schema.Attribute.String;
+    titulo4: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -659,6 +679,10 @@ export interface ApiVideogameVideogame extends Struct.SingleTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    descripcion: Schema.Attribute.Text;
+    descripcion2: Schema.Attribute.Text;
+    imagen: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    imagen2: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -666,6 +690,9 @@ export interface ApiVideogameVideogame extends Struct.SingleTypeSchema {
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
+    titulo: Schema.Attribute.String;
+    titulo2: Schema.Attribute.String;
+    titulo3: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

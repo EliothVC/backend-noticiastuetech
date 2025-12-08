@@ -10,5 +10,57 @@
     "draftAndPublish": true
   },
   "pluginOptions": {},
-  "attributes": {}
+  "attributes": {
+    "imagen": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "imagen2": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "titulo2": {
+      "type": "string"
+    },
+    "descripcion2": {
+      "type": "text"
+    },
+    "imagen3": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "titulo3": {
+      "type": "string"
+    },
+    "descripcion3": {
+      "type": "text"
+    },
+    "titulo4": {
+      "type": "string"
+    }
+  }
 }
