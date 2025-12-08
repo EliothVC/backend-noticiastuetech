@@ -500,6 +500,9 @@ export interface ApiHomeHome extends Struct.SingleTypeSchema {
       Schema.Attribute.Private;
     descripcion: Schema.Attribute.String;
     descripcion2: Schema.Attribute.Text;
+    descripcion3: Schema.Attribute.String;
+    descripcion4: Schema.Attribute.Text;
+    descripcion5: Schema.Attribute.String;
     hero: Schema.Attribute.Media<'images' | 'files'>;
     imagen2: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
@@ -510,6 +513,8 @@ export interface ApiHomeHome extends Struct.SingleTypeSchema {
     titulo2: Schema.Attribute.String;
     titulo3: Schema.Attribute.String;
     titulo4: Schema.Attribute.String;
+    titulo5: Schema.Attribute.String;
+    titulo6: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

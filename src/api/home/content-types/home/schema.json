@@ -28,9 +28,6 @@
       "type": "string",
       "required": false
     },
-    "titulo2": {
-      "type": "string"
-    },
     "imagen2": {
       "type": "media",
       "multiple": false,
@@ -41,6 +38,9 @@
         "audios"
       ]
     },
+    "titulo2": {
+      "type": "string"
+    },
     "descripcion2": {
       "type": "text"
     },
@@ -48,6 +48,21 @@
       "type": "string"
     },
     "titulo4": {
+      "type": "string"
+    },
+    "titulo5": {
+      "type": "string"
+    },
+    "descripcion3": {
+      "type": "string"
+    },
+    "titulo6": {
+      "type": "string"
+    },
+    "descripcion4": {
+      "type": "text"
+    },
+    "descripcion5": {
       "type": "string"
     }
   }
