@@ -61,6 +61,15 @@
     },
     "titulo4": {
       "type": "string"
+    },
+    "titulo5": {
+      "type": "string"
+    },
+    "descripcion4": {
+      "type": "text"
+    },
+    "boton": {
+      "type": "string"
     }
   }
 }
