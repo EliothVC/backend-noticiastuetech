@@ -498,6 +498,34 @@ export interface ApiContactoContacto extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiFooterFooter extends Struct.CollectionTypeSchema {
+  collectionName: 'footers';
+  info: {
+    displayName: 'footer';
+    pluralName: 'footers';
+    singularName: 'footer';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::footer.footer'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    texto: Schema.Attribute.Text;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiFormularioFormulario extends Struct.CollectionTypeSchema {
   collectionName: 'formularios';
   info: {
@@ -663,6 +691,35 @@ export interface ApiTechnologyTechnology extends Struct.SingleTypeSchema {
     titulo3: Schema.Attribute.String;
     titulo4: Schema.Attribute.String;
     titulo5: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiTextofooterTextofooter extends Struct.SingleTypeSchema {
+  collectionName: 'textofooters';
+  info: {
+    displayName: 'textofooter';
+    pluralName: 'textofooters';
+    singularName: 'textofooter';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::textofooter.textofooter'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    texto1: Schema.Attribute.Text;
+    texto2: Schema.Attribute.Text;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -1218,11 +1275,13 @@ declare module '@strapi/strapi' {
       'admin::user': AdminUser;
       'api::acerca-de.acerca-de': ApiAcercaDeAcercaDe;
       'api::contacto.contacto': ApiContactoContacto;
+      'api::footer.footer': ApiFooterFooter;
       'api::formulario.formulario': ApiFormularioFormulario;
       'api::home.home': ApiHomeHome;
       'api::navmenu.navmenu': ApiNavmenuNavmenu;
       'api::noticia.noticia': ApiNoticiaNoticia;
       'api::technology.technology': ApiTechnologyTechnology;
+      'api::textofooter.textofooter': ApiTextofooterTextofooter;
       'api::videogame.videogame': ApiVideogameVideogame;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;

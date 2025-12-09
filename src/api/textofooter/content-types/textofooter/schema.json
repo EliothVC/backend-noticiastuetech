@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "textofooters",
+  "info": {
+    "singularName": "textofooter",
+    "pluralName": "textofooters",
+    "displayName": "textofooter"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "texto1": {
+      "type": "text"
+    },
+    "texto2": {
+      "type": "text"
+    }
+  }
+}
