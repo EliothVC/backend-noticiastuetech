@@ -50,9 +50,9 @@ contraseña: Admin1234
 
 | Integrante                | Contribución Especifica                       |
 | :------------------------ | :---------------------------------------------|
-| Elioth Vargas (Lider del proyecto / Lider Frontend)             | Desarrollo de la arquitectura de componentes, lógica de consumo de datos (API Fetch), implementación de rutas dinámicas y maquetación general.                         |
+| Elioth Vargas (Lider del proyecto / Lider Frontend y backend)             | Desarrollo de la arquitectura de componentes, lógica de consumo de datos (API Fetch), implementación de rutas dinámicas, maquetación general y Configuración de Strapi.                        |
 | Benjamin Vergara (Frontend / Responsive)      | Configuración responsive e Ideas de diseño de paginas    |
-| Cristofer Marquez (Lider Backend)          | Configuración de Strapi, creación de Content Types.|
+| Cristofer Marquez (Backend)          | Creación de Content Types.|
 | Constanza Diaz (Backend)           | Generación y organización de todo el contenido dinámico del sitio.    |
 
 ## Frontend del Proyecto
