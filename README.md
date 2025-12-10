@@ -1,61 +1,61 @@
-# 🚀 Getting started with Strapi
+# Proyecto Noticias Tue Tech
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+Proyecto final para la asignatura de **Programación**.
+Sitio web de Noticias ficticia, creado con Astro e implementado con Strapi y TailwindCSS.
 
-### `develop`
+## Configuración Para Iniciar el Proyecto
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
+Luego de clonar el proyecto, se debe crear un archivo llamado `.env` en la carpeta raiz del proyecto (`/backend-noticiastuetech`), escribiendo lo siguiente dentro de su contenido:
 
+```env
+
+# Server
+HOST=0.0.0.0
+PORT=1337
+
+# Secrets
+APP_KEYS=5+FczTOG1eiv2CULYzJCSg==,8RF6flEqMZ9H3hV++Wld6Q==,3AHLDZvo0njrw1VG2w7hoA==,A18hvwKB9e7pFvz/W90rTw==
+API_TOKEN_SALT=sfojK5GFNwauwkNy1lTMnQ==
+ADMIN_JWT_SECRET=aicf3zpvPjdVzF2f0/5IzA==
+TRANSFER_TOKEN_SALT=H6Tp4FlZz0Ut/t9K//G7AA==
+ENCRYPTION_KEY=KSjRJT0VIWTsGXe0k2GpTg==
+
+# Database
+DATABASE_CLIENT=postgres
+DATABASE_HOST=ep-weathered-bonus-acrdan6s-pooler.sa-east-1.aws.neon.tech
+DATABASE_PORT=5432
+DATABASE_NAME=strapibackend
+DATABASE_USERNAME=neondb_owner
+DATABASE_PASSWORD=npg_jicod01feBLX
+DATABASE_SSL=true
+DATABASE_FILENAME=
+JWT_SECRET=9WUMVOiDUaQRCOb3KZrlzw==
 ```
-npm run develop
-# or
-yarn develop
-```
+Seguidamente de crear este archivo, se debe abrir una nueva terminal y ejecutar los siguientes comandos:
 
-### `start`
+```npm install```
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
+```npm run develop```
 
-```
-npm run start
-# or
-yarn start
-```
+El proyecto correrá en ``http://localhost:1337`` que esta Hosteada en Render ```https://app-strapi-xfml.onrender.com```
 
-### `build`
+Credenciales de Acceso:
 
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
+admin@admin
 
-```
-npm run build
-# or
-yarn build
-```
+## Integrantes y Contribuciones
 
-## ⚙️ Deployment
+*Este proyecto fue desarrollado de manera colaborativa. A continuación se detalla la responsabilidad principal de cada uno:*
 
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
+| Integrante                | Contribución Especifica                       |
+| :------------------------ | :---------------------------------------------|
+| Elioth Vargas (Lider del proyecto / Lider Frontend)             | Desarrollo de la arquitectura de componentes, lógica de consumo de datos (API Fetch), implementación de rutas dinámicas y maquetación general.                         |
+| Benjamin Vergara (Frontend / Responsive)      | Configuración responsive e Ideas de diseño de paginas    |
+| Cristofer Marquez (Lider Backend)          | Configuración de Strapi, creación de Content Types.|
+| Constanza Diaz (Backend)           | Generación y organización de todo el contenido dinámico del sitio.    |
 
-```
-yarn strapi deploy
-```
+## Frontend del Proyecto
 
-## 📚 Learn more
+El frontend de este proyecto se encuentra en el siguiente link:
 
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+``https://github.com/EliothVC/frontend-noticiastuetech.git``
